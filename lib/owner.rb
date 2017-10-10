@@ -44,4 +44,7 @@ class Owner
     self.pets[:cats].select{|cat| cat.mood = "happy"};
   end
 
+  def feed_fish
+  end
+
 end
