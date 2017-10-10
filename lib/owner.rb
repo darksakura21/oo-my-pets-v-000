@@ -45,6 +45,7 @@ class Owner
   end
 
   def feed_fish
+      self.pets[:fish].select{|fish| fish.mood = "happy"}
   end
 
 end
