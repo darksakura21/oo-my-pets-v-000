@@ -52,7 +52,7 @@ class Owner
     self.pets.select do |pets, pet|
       # pet.select {|instance| instance.mood = "nervous"};
 
-      pets = [];
+      pet = [];
     # self.pets[:cats].select{|cat| cat.mood = "nervous"};
     # self.pets[:fishes].select{|fish| fish.mood = "nervous"};
     # self.pets[:dogs].select{|dog| dog.mood = "nervous"};
