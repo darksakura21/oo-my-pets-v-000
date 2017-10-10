@@ -2,8 +2,8 @@ class Owner
   # code goes here
   @@all = Array.new
 
-  def initialize(owner)
-    @species = owner
+  def initialize(species)
+    @species = species
     @@all << self
   end
 
