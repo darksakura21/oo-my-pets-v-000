@@ -49,7 +49,9 @@ class Owner
   end
 
   def sell_pets
-    self.pets.each_value {|pets| pets.clear}
+    self.pets.each_value {|pets|
+      pets.select{|pet| pet.mood = "nervous"}
+;      pets.clear}
     self.pet.select {|type,pet| pet.mood = "nervous"};
     # self.pets[:cats].select{|cat| cat.mood = "nervous"};
     # self.pets[:fishes].select{|fish| fish.mood = "nervous"};
