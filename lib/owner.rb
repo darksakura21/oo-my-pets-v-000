@@ -41,6 +41,7 @@ class Owner
   end
 
   def play_with_cats
+    self.pets[:cats].select{|cat| cat.mood = "happy"}
   end
 
 end
