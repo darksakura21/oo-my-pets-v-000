@@ -32,8 +32,9 @@ class Owner
     @@all
   end
   def self.reset_all
-    Owner.new("human")
+    @@all.clear
   end
+
   def self.count
     @@all.length
   end
