@@ -48,4 +48,6 @@ class Owner
       self.pets[:fishes].select{|fish| fish.mood = "happy"};
   end
 
+  def sell_pets
+
 end
