@@ -49,6 +49,7 @@ class Owner
   end
 
   def sell_pets
+    self.pets.select{|pets, class| instance.select {|}}
     self.pets[:cats].select{|cat| cat.mood = "nervous"};
     self.pets[:fishes].select{|fish| fish.mood = "nervous"};
     self.pets[:dogs].select{|dog| dog.mood = "nervous"};
