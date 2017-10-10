@@ -49,7 +49,7 @@ class Owner
   end
 
   def sell_pets
-    self.pets.each_key {|pets| pets = Array.new}
+    self.pets.each_value {|pets| pets = Array.new}
       # pet.select {|instance| instance.mood = "nervous"};
     # self.pets[:cats].select{|cat| cat.mood = "nervous"};
     # self.pets[:fishes].select{|fish| fish.mood = "nervous"};
