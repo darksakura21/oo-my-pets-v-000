@@ -3,6 +3,7 @@ class Owner
   @@all = Array.new
 
   def initialize(owner)
+    @owner = owner
     @@all << self
   end
 
