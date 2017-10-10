@@ -31,13 +31,14 @@ class Owner
   def self.all
     @@all
   end
+  def self.reset_all
+    Owner.new("human")
+  end
   def self.count
     @@all.length
   end
 
-  def self.reset_all
-    Owner.new("human")
-  end
+
 
   def walk_dogs
     self.pets[:dogs].select{ |dog| dog.mood = "happy"};
