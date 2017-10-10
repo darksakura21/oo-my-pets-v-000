@@ -49,14 +49,11 @@ class Owner
   end
 
   def sell_pets
-    self.pets.select do |pets, pet|
+    self.pets.each_key {|pets| pets = Array.new}
       # pet.select {|instance| instance.mood = "nervous"};
-
-      pet = [];
     # self.pets[:cats].select{|cat| cat.mood = "nervous"};
     # self.pets[:fishes].select{|fish| fish.mood = "nervous"};
     # self.pets[:dogs].select{|dog| dog.mood = "nervous"};
-    end
   end
 
 end
