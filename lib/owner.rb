@@ -1,5 +1,7 @@
 class Owner
   # code goes here
 
-  self.all
+  def self.all
+    @@all
+  end
 end
