@@ -49,7 +49,7 @@ class Owner
   end
 
   def sell_pets
-    
+    self.pets[:cats].select{|cat| cat.mood = "nervous"};
   end
 
 end
