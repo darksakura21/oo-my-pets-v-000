@@ -50,7 +50,7 @@ class Owner
 
   def sell_pets
     self.pets.select do |pets, pet|
-      pet.select {|instance| instance.mood = "nervous"};
+      # pet.select {|instance| instance.mood = "nervous"};
 
       pets = [];
     # self.pets[:cats].select{|cat| cat.mood = "nervous"};
