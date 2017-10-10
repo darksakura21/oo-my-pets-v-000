@@ -14,6 +14,16 @@ class Owner
     self.pets[cats] << name
   end
 
+  def buy_dog(name)
+    name = Dog.new(name)
+    self.pets[dogs] << name
+  end
+
+  def buy_fish(name)
+    name = Fish.new(name)
+    self.pets[fishes] << name
+  end
+
   def say_species
     self.species
   end
