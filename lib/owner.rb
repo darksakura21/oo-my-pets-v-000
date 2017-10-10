@@ -10,6 +10,9 @@ class Owner
     @@all
   end
 
+  def self.reset_all
+    self.new
+  end
 
 
 end
