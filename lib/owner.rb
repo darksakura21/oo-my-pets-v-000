@@ -1,5 +1,6 @@
 class Owner
   attr_reader :species
+  attr_accessor :pets
   @@all = Array.new
 
   def initialize(species)
