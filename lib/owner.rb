@@ -11,6 +11,7 @@ class Owner
 
   def buy_cat(name)
     name = Cat.new(name)
+    self.pets
   end
 
   def say_species
