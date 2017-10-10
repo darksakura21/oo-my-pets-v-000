@@ -56,4 +56,7 @@ class Owner
     # self.pets[:dogs].select{|dog| dog.mood = "nervous"};
   end
 
+  def list_pets
+    "I have #{self.pets[:fishes].count} fish, #{self.pets[:dogs].count} dog(s),  "
+
 end
