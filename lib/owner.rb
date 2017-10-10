@@ -2,7 +2,7 @@ class Owner
   # code goes here
   @@all = Array.new
 
-  def initialize
+  def initialize(owner)
     @@all << self
   end
 
