@@ -7,7 +7,6 @@ class Owner
     @species = species
     @pets = {fishes: [], cats: [], dogs: []}
     @@all << self
-
   end
 
   def say_species
